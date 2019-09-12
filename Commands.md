@@ -9,8 +9,8 @@
      interpretation that satisfies the formula that is make it true.
 * ## (check-sat)
      determines whether the current formulas on the Z3 stack are satisfiable or not. 
-     If formula is satisfiable Z3 returns ###sat. If it is not statisfiable then returns ###unsat.
-     Z3 can also return ###unknown when it can't determine whether a formula is satisfiable or not.
+     If formula is satisfiable Z3 returns **sat**. If it is not statisfiable then returns **unsat**.
+     Z3 can also return **unknown** when it can't determine whether a formula is satisfiable or not.
 * ## (get-model)
      Retrives an interpretation that makes all formulas on the Z3 internal stack true. 
 * ## (push) 
