@@ -7,7 +7,8 @@
 (define-fun demorgans () Bool
   (= (not (and p q)) 
       (or (not p) (not q))))
-(assert demorgans)
+(assert (not demorgans))
 (check-sat)
 ```
-The above formula is satisfiable as it is Demorgan's law (not (and p q)) = (not p) \/ (not q)
+The above formula is valid as it is Demorgan's law (not (and p q)) = (not p) \/ (not q) hence if we prove that (not demorgans)
+is unsatisfiable.
