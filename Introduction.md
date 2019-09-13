@@ -13,4 +13,6 @@
 * In Z3, division by 0 is satisfied but the result is not specified.
 * Z3 supports bit-vector operations.
 * Z3 contains a decision procedure for the basic theory of arrays.
+* Z3 is not able to prove **inductive facts**. Z3 does not contain methods for prducing proofs by induction. 
+* Z3 can handle formulas involving quantifiers. It solves this using various methods. One of them is using pattern-based quantifier instantiation. 
 
